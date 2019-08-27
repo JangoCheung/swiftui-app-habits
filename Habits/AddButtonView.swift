@@ -13,7 +13,6 @@ struct AddButtonView: View {
             self.onPressed()
         }) {
             HStack {
-
                 Image(systemName: "plus.circle.fill")
                     .resizable()
                     .frame(width: 60, height: 60)
